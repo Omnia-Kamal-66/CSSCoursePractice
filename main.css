@@ -1,12 +1,4 @@
-*{
-    box-sizing: border-box;
-}
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-  
-}
  
 #product-preview{
     background: url("freedom.jpg");
@@ -26,6 +18,12 @@ body{
 #product-preview h1{
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.plan__list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .plan{
@@ -75,42 +73,7 @@ body{
 .plan__feature{
     margin: 8px 0 ;
 }
-.button{
-    background: #0e4f1f;
-    color: white;
-    font: inherit;
-    padding: 8px;
-    border: 1.5px solid #0e4f1f;;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
 
-.button:hover,
-.button:active{
-    background:white;
-    color: #0e4f1f;
-}
-
-.button:focus{
-    outline: none;
-}
-
-.main-header{
-    width: 100%;
-    background: #2ddf5c;
-    padding: 8px 16px;
-}
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-}
-.main-header__brand{
-    color: #0e4f1f; 
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
 .main-nav{
     display: inline-block;
     text-align: right;
@@ -164,29 +127,7 @@ body{
     padding: 32px;
     margin-top: 48px;
 }
-.main-footer__links{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
-.main-footer__link{
-    display: inline-block;
-    font-weight: bold;
-    margin: 0 16px;
-}
-.main-footer__link a {
-    color: white;
-    text-decoration: none;
-   
-}
-.main-footer__link a:hover,
-.main-footer__link a:active{
-
-color: #ccc;
-
-}
 
 #key-features{
     background: #ff1b68;
