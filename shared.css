@@ -35,6 +35,10 @@ body{
     width: 100%;
     background: #2ddf5c;
     padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .main-header > div {
     display: inline-block;
@@ -45,7 +49,70 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
+    /* width: 20px; */
+    display: inline-block;
+
 }
+.main-header__brand img{
+    height: 100%;
+    /* width: 100%; */
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 76px) ;
+    vertical-align: middle;
+}
+.main-nav__items{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+
+ 
+}
+.main-nav__item a {
+    text-decoration: none;
+    color:#0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+    border-bottom: 5px solid white ;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    border-radius: 8px;
+    padding: 8px 16px;
+
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: #ff1b68;
+    background:white ;
+    border: none;
+}
+
+
+.main-footer{
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
 
 .main-footer__links{
     list-style: none;
